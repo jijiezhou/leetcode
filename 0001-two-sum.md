@@ -1,4 +1,4 @@
-### Description
+### 01 Description
 
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
 
@@ -35,7 +35,7 @@ Output: [0,1]
 - `-10^9 <= target <= 10^9`
 - **Only one valid answer exists.**
 
-## Idea
+## 02 Idea
 
 - **Why think of using a Hash Table, and why a map?**  
   We want to know if we've seen the element before (and where); we need a structure with key-value pairs of element and index. A map fits well because it stores both the element and its index.
@@ -44,13 +44,12 @@ Output: [0,1]
     1. A typical two-pointer solution depends on sorting. Once sorted, the original indices are changed, but this problem requires returning the *original* indices.
     2. We can still sort if we keep a record of the original indices, but that requires extra data structure that might be more complex than a straightforward map approach.
 
-## Hint
+## 03 Approach
 
 - The map’s key stores each element’s value, while the value stores its index.
 - If you try a two-pass strategy, you first store all elements in the map, then check if the complement of the current element exists.
 - You can reduce two-pass to one-pass by checking for the complement before you insert the current element into the map.
 
-## Detailed Approaches
 
 1. **Brute Force**
     - Loop through each element x, then use a nested loop to find if there is another value that equals `target - x`.
@@ -71,7 +70,7 @@ Output: [0,1]
    - if hit, then find corresponding index from original array
    - deduplicate
 
-### Answer
+### 04 Answer
 
 ```
 //1. Brute Force
@@ -122,8 +121,7 @@ class Solution {
 //4. Two Pointers
 ```
 
-### Complexity
+### 05 Complexity
 
 1. time complexity: O(n)
 2. space complexity: O(n)
-```
