@@ -55,6 +55,7 @@ Output: [["a"]]
             //string: bdddddddddd, id:010100000000000000000000000
             //string: bbbbbbbbbbc, id:010100000000000000000000000
             ```
+        3.  if use int[], append ‘#’
 
     3.  Map<String, List<String>>
 
@@ -130,7 +131,8 @@ class Solution {
         }
         return res;
     }
-
+    
+    //char[]
     String encode(String s) {
         char[] count = new char[26];
         for (char c : s.toCharArray()) {
@@ -138,6 +140,20 @@ class Solution {
             count[delta]++;
         }
         return new String(count);
+    }
+    
+    //int[] + '#'
+    private String encode(String str){
+        int[] count = new int[26];
+        StringBuilder sb = new StringBuilder();
+        for (char c: str.toCharArray()){
+            count[c - 'a']++;
+        }
+        for (int i = 0; i < 26; i++){
+            sb.append(count[i]);
+            sb.append('#');
+        }
+        return sb.toString();
     }
 }
 
