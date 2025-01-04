@@ -119,7 +119,7 @@ class Solution {
 }
 
 //4. Two Pointers
-to do: implement
+to do: implementation
 ```
 
 ### 05 Complexity
