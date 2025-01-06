@@ -93,6 +93,12 @@ class Solution {
         return sb.toString();
     }
 }
+
+//2.Binary Indexed Tree
+//to do
+
+//3.Segment Tree
+//to do
 ```
 
 ### 05 Complexity
