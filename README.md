@@ -6,8 +6,9 @@
    5. Code: Implementation
    6. Test: with cases
    7. Complexity: time + space
-2. List
+2. List: to do
    3. Blind 75
    4. Neetcode 150
    5. Top 150 interviewed
 3. Company tag questions
+   4. to do
