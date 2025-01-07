@@ -11,4 +11,6 @@
    4. Neetcode 150
    5. Top 150 interviewed
 3. Company tag questions
-   4. to do
+   4. Meta
+   5. Amazon
+   6. Google
