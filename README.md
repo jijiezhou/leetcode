@@ -14,3 +14,5 @@
    4. Meta
    5. Amazon
    6. Google
+   7. Apple
+   8. Others
