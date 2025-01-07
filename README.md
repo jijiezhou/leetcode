@@ -15,4 +15,4 @@
    5. Amazon
    6. Google
    7. Apple
-   8. Others
+   8. to do
