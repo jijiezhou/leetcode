@@ -16,5 +16,6 @@
    6. Google
    7. Apple
    8. Microsoft
-   9. Uber
+   9. Uber 
    10. Databricks
+   11. Open AI
