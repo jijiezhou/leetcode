@@ -19,3 +19,4 @@
    9. Uber 
    10. Databricks
    11. Open AI
+   12. Anthropic
