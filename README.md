@@ -15,10 +15,12 @@
    5. Meta
    6. Google
    7. Apple
-   8. Microsoft
-   9. Uber 
-   10. Databricks
-   11. Open AI
-   12. Anthropic
-   13. Startups
-   14. Unicorns
+   8. Nvidia
+   9. Netflix
+   10. Microsoft
+   11. Uber 
+   12. Databricks
+   13. Open AI
+   14. Anthropic
+   15. Startups
+   16. Unicorns
