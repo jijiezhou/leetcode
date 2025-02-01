@@ -12,8 +12,8 @@
    5. Top 150 interviewed
 3. Company tag questions 
    4. Amazon/ AWS 
-   5. Meta
-   6. Google
+   5. Google
+   6. Meta
    7. Apple
    8. Nvidia
    9. Netflix
