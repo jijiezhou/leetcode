@@ -24,4 +24,4 @@
    14. Anthropic
    15. Startups
    16. Unicorns
-   17. More: to do 
+   17. More 
