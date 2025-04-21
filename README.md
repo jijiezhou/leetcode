@@ -32,4 +32,3 @@
       - Airbnb
       - DoorDash
       - Robinhood
-      - ...
